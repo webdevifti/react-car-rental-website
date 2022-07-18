@@ -62,3 +62,7 @@ section{
   outline: none;
   border-radius: 5px;
 }
+.btn:hover{
+  color: #fff;
+  background: #000d6d;
+}
