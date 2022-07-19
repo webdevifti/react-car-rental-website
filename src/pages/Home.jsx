@@ -5,6 +5,8 @@ import Helmet from '../components/helmet/Helmet'
 import FindCarForm from '../components/UI/FIndCarForm'
 import AboutSection from '../components/UI/AboutSection'
 import ServiceList from '../components/UI/ServiceList'
+import CarItem from '../components/UI/CarItem'
+import carData from '../assets/data/carData'
 
 const Home = () => {
   return (
@@ -38,6 +40,22 @@ const Home = () => {
               <h2 className="section__title">Popular Services</h2>
             </Col>
             <ServiceList />
+          </Row>
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Come with </h6>
+              <h2 className="section__title">Hot Offers</h2>
+            </Col>
+            {
+              carData.slice(0,6).map((item) => (
+                <CarItem item={item} key={item.id} />
+              ))
+            }
           </Row>
         </Container>
       </section>
