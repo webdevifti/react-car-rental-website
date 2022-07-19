@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 import HeroSlider from '../components/UI/HeroSlider'
 import Helmet from '../components/helmet/Helmet'
 import FindCarForm from '../components/UI/FIndCarForm'
+import AboutSection from '../components/UI/AboutSection'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
           </Container>
         </div>
       </section>
+      <AboutSection />
     </Helmet>
   )
 }
