@@ -7,6 +7,7 @@ import AboutSection from '../components/UI/AboutSection'
 import ServiceList from '../components/UI/ServiceList'
 import CarItem from '../components/UI/CarItem'
 import carData from '../assets/data/carData'
+import BecomeDriverSection from '../components/UI/BecomeDriverSection'
 
 const Home = () => {
   return (
@@ -59,6 +60,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      <BecomeDriverSection />
     </Helmet>
   )
 }
