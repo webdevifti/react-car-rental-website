@@ -4,6 +4,7 @@ import { Container,Row,Col } from 'reactstrap'
 import Helmet from '../components/helmet/Helmet'
 import CommonSection from '../components/UI/CommonSection'
 import { useParams } from 'react-router-dom'
+import BookingForm from '../components/UI/BookingForm'
 const CarDetails = () => {
 
   const {slug} = useParams()
@@ -62,6 +63,14 @@ const CarDetails = () => {
                 </span>
 
               </div>
+            </div>
+          </Col>
+
+          <Col lg="7" className='mt-5'>
+            <div className="booking__info mt-5">
+              <h5 className="mb-4 fw-bold">Booking Information</h5>
+
+              <BookingForm />
             </div>
           </Col>
         </Row>
