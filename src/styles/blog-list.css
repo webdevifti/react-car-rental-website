@@ -36,3 +36,29 @@
 .blog__title:hover{
     color: #f9a826;
 }
+
+
+@media only screen  and (max-width: 768px){
+    .blog__time{
+        padding-top: 5px !important;
+    }
+    .blog__time span{
+        font-size: 0.7rem;
+    }
+
+    .read__more-btn{
+        font-size: 0.7rem;
+    }
+    .blog__info p{
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen  and (max-width: 576px){
+    .blog__item__boxs{
+        margin-bottom: 20px;
+    }
+}
