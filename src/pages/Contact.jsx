@@ -1,12 +1,12 @@
 import React from 'react'
 import CommonSection from '../components/UI/CommonSection'
 import Helmet from '../components/helmet/Helmet'
-const Blog = () => {
+const Contact = () => {
   return (
-    <Helmet title="Blog">
-    <CommonSection title="Blog" />
+    <Helmet title="Contact">
+    <CommonSection title="Contact" />
   </Helmet>
   )
 }
 
-export default Blog
+export default Contact

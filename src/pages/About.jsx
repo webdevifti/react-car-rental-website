@@ -1,8 +1,11 @@
 import React from 'react'
-
+import CommonSection from '../components/UI/CommonSection'
+import Helmet from '../components/helmet/Helmet'
 const About = () => {
   return (
-    <div>About</div>
+    <Helmet title="About">
+      <CommonSection title="About" />
+    </Helmet>
   )
 }
 
