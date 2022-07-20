@@ -29,9 +29,16 @@
 .booking__form select:focus{
     outline: none;
 }
-.booking__form-btn{
-    margin-top: 20px;
-    padding: 10px 18px  !important;
-    color: #fff !important;
-    background: #000d6d !important;
+
+
+@media only screen and (max-width: 768px){
+    .booking__form{
+        width: 100%;
+    }
+    .booking__form input, .textarea, .booking__form select{
+        font-size: 0.8rem;
+    }
+    .reservedbtn{
+        margin-bottom: 50px;
+    }
 }
