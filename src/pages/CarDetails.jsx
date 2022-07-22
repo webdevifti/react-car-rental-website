@@ -9,7 +9,7 @@ import PaymentMethod from '../components/UI/PaymentMethod'
 const CarDetails = () => {
 
   const {slug} = useParams()
-  const singleCarData = carData.find(item => item.slug == slug)
+  const singleCarData = carData.find(item => item.slug === slug)
 
   useEffect(() => {
     window.scrollTo(0,0);
