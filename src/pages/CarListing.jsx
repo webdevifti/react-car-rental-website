@@ -21,6 +21,8 @@ const CarListing = () => {
               <select name="" id="">
                 <option value="low">Low to High</option>
                 <option value="high">High to Low</option>
+                <option value="asc">A to Z</option>
+                <option value="desc">Z to A</option>
               </select>
             </div>
           </Col>
