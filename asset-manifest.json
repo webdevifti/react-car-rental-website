@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webdevifti/react-car-rental-website/static/css/main.161168bf.css",
-    "main.js": "/webdevifti/react-car-rental-website/static/js/main.eb67a16f.js",
+    "main.js": "/webdevifti/react-car-rental-website/static/js/main.870fed9d.js",
     "static/media/remixicon.svg?t=1590207869815": "/webdevifti/react-car-rental-website/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/webdevifti/react-car-rental-website/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/webdevifti/react-car-rental-website/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -29,10 +29,10 @@
     "static/media/slick.woff": "/webdevifti/react-car-rental-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/webdevifti/react-car-rental-website/index.html",
     "main.161168bf.css.map": "/webdevifti/react-car-rental-website/static/css/main.161168bf.css.map",
-    "main.eb67a16f.js.map": "/webdevifti/react-car-rental-website/static/js/main.eb67a16f.js.map"
+    "main.870fed9d.js.map": "/webdevifti/react-car-rental-website/static/js/main.870fed9d.js.map"
   },
   "entrypoints": [
     "static/css/main.161168bf.css",
-    "static/js/main.eb67a16f.js"
+    "static/js/main.870fed9d.js"
   ]
 }
